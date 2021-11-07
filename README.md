@@ -5,7 +5,7 @@ Natural Language Experiments comparing unsupervised and supervised BERT training
 ## Problem Statement
 
 High recall lexicon has been run on medical case notes. Need a deep learning
-model over the top to distingush between false and true positives NER hits. 
+model over the top to distinguish between false and true positives NER hits. 
 Gold labels do exist though.
 
 ## Approach
@@ -19,7 +19,7 @@ applications unlikely to have gold label data hence motivation for unsupervised 
 
 ## Results
 
-Unsuperivsed works!! This is a PCA visualisation of the hidden dimensions. The marker colours show the classes of the inputs and the red crosses the k-means centroids. 
+Unsupervised works!! This is a PCA visualisation of the hidden dimensions. The marker colours show the classes of the inputs and the red crosses the k-means centroids. 
 
 ![Unsupervised PCA](figures\Unsupervised_PCA.png)
 
@@ -27,11 +27,11 @@ And gives fairly good performance
 
 ![Unsupervised Confusion Matrix](figures\Unsupervised_Confusion_Matrix.png)
 
-Although as is the norm (if the data is avaliable) supervised learning will outperform
+Although as is the norm (if the data is available) supervised learning will outperform
 
 ![Supervised Confusion Matrix](figures\Supervised_Confusion_Matrix.png)
 
-A more thourough report of methodogy and results is presented in `report.pdf`
+A more thorough report of methodology and results is presented in `report.pdf`
 
 ## To run
 
@@ -53,8 +53,8 @@ Run the notebook. Simple as that!
 
 ## Improvements
 
-Code is clunky and far from optimised (alot of for loops instead of tensor operations).
-But as this was a proof of concept on relavtively small amounts of data, efficency was a 
+Code is clunky and far from optimised (a lot of for loops instead of tensor operations).
+But as this was a proof of concept on relatively small amounts of data, efficiency was a 
 secondary concern.
 
 Training is stopped at 4 epochs. Could be converted for use on a cluster for larger training
