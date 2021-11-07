@@ -1,4 +1,4 @@
-# Un/supervised BERT NER training on medical data
+# (Un)supervised BERT NER training on medical data
 
 Natural Language Experiments comparing unsupervised and supervised BERT training approaches.
 
