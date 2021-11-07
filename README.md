@@ -1,4 +1,4 @@
-# Un/supervised BERT NER training on medical data
+# (Un)supervised BERT NER training on medical data
 
 Natural Language Experiments comparing unsupervised and supervised BERT training approaches.
 
@@ -21,15 +21,15 @@ applications unlikely to have gold label data hence motivation for unsupervised 
 
 Unsupervised works!! This is a PCA visualisation of the hidden dimensions. The marker colours show the classes of the inputs and the red crosses the k-means centroids. 
 
-![Unsupervised PCA](figures\Unsupervised_PCA.png)
+![Unsupervised PCA](./figures/Unsupervised_PCA.png)
 
 And gives fairly good performance 
 
-![Unsupervised Confusion Matrix](figures\Unsupervised_Confusion_Matrix.png)
+![Unsupervised Confusion Matrix](./figures/Unsupervised_Confusion_Matrix.png)
 
 Although as is the norm (if the data is available) supervised learning will outperform
 
-![Supervised Confusion Matrix](figures\Supervised_Confusion_Matrix.png)
+![Supervised Confusion Matrix](./figures/Supervised_Confusion_Matrix.png)
 
 A more thorough report of methodology and results is presented in `report.pdf`
 
@@ -44,7 +44,7 @@ can forward your request on.
 
 ### Inference
 
-The best trained models are publicly available.
+The best trained models are publicly available one [OneDrive](https://liveuclac-my.sharepoint.com/:f:/g/personal/rmhisje_ucl_ac_uk/EgVOzav9ZXVGr9Otur5LsXMBMBf_eAVDwWGWD4vFRYfnTg?e=eUsToZ).
 
 Download and place in `models` folder
 
