@@ -38,16 +38,17 @@ A more thorough report of methodology and results is presented in `report.pdf`
 ### Training
 
 All training code is contained within main.ipynb but with the training call commented out. 
-Unfortunately, access to the data is not mine to give if of interest please get in touch and I 
+
+Unfortunately, access to the data is not mine to give. If of interest please get in touch and I 
 can forward your request on.
 
 ### Inference
 
-`pip install -r requirements.txt`
-
 The best trained models are publicly available.
 
 Download and place in `models` folder
+
+`pip install -r requirements.txt`
 
 Run the notebook. Simple as that!
 
