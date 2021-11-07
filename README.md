@@ -45,7 +45,7 @@ can forward your request on.
 
 `pip install -r requirements.txt`
 
-The best trained models are publicly available.
+The best trained models are publicly available [here](https://liveuclac-my.sharepoint.com/:f:/g/personal/rmhisje_ucl_ac_uk/EgVOzav9ZXVGr9Otur5LsXMBMBf_eAVDwWGWD4vFRYfnTg?e=eUsToZ).
 
 Download and place in `models` folder
 
