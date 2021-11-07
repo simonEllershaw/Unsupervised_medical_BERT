@@ -1,6 +1,7 @@
 # (Un)supervised BERT NER training on medical data
 
-Natural Language Experiments comparing unsupervised and supervised BERT training approaches.
+NLP experiments comparing unsupervised and supervised BERT finetuning approaches
+on medical data.
 
 ## Problem Statement
 
@@ -10,7 +11,7 @@ Gold labels do exist though.
 
 ## Approach
 
-Investigate if just through unsupervised training (masked language modelling)
+Investigate if just through unsupervised finetuning (masked language modelling)
 the representations from the last hidden layer of a BERT model would be enough to 
 classify through k-means clustering.
 
